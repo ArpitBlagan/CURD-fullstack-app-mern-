@@ -25,7 +25,7 @@ const AddContact = ({token}) => {
                 <form >
                     <div className="m-4">
                         <lable>Name:</lable>
-                        <input className='pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200' 
+                        <input className=' rounded pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200' 
                             placeholder="Enter Name"
                             onChange={(e)=>{
                                 setN(e.target.value)
@@ -35,7 +35,7 @@ const AddContact = ({token}) => {
                     </div>
                     <div className="m-4">
                     <lable>Email:</lable>
-                        <input className='pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200'
+                        <input className='rounded pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200'
                             placeholder="Enter Email"
                             onChange={(e)=>{
                                 setE(e.target.value);
@@ -45,7 +45,7 @@ const AddContact = ({token}) => {
                     </div>
                     <div className="m-4">
                         <lable>Phone:</lable>
-                        <input className='pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200'
+                        <input className='rounded pl-8 text-grey-dark h-10  w-full text-sm font-medium tracking-wide bg-gray-200'
                             placeholder="Enter phone  number"
                             onChange={(e)=>{
                                 setP(e.target.value);
